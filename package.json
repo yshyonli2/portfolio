@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx pug -P src/ -o public/ && sass src/style.sass public/style.css && echo   rendered CSS"
+    "build": "npx pug3 -P src/ -o public/ && sass src/style.sass public/style.css && echo   rendered CSS"
   },
   "repository": {
     "type": "git",
