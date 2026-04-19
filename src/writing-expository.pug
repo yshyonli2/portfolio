@@ -1,112 +1,106 @@
-doctype html
+extends _templates/_normal-layout.pug
 
-html
-    head
-        meta(charset='UTF-8')
-        title Expository Writing · Yiu-On Li
-        link(rel='stylesheet' type='text/css' href='style.css')
-    body
-        section
-            h1 Expository Writing
-        section
-            h2 Newsletters and tutorial videos
-            p I’ve written newsletters for #[a(href='https://datamuse.com/') Datamuse], a search engine company that’s been around #[a(href='https://www.onelook.com/?c=trademark') since the early days of the web]. My job involved crawling through #[a(href='https://civicsearch.org/') CivicSearch], a database that aggregates transcripts of local government meetings from the United States and Canada, to discuss important but below-the-radar issues.
-            ul
-                li.starred #[a(href='https://civicsearch.org/feature/fluoride') Fluoride in drinking water]
-                li #[a(href='https://civicsearch.org/feature/voter-turnout') Voter turnout]
-                li.starred #[a(href='https://civicsearch.org/feature/ranked-choice-voting') Ranked-choice voting]
-                li.starred #[a(href='https://civicsearch.org/feature/participatory-budgeting') Participatory budgeting]
-                li #[a(href='https://civicsearch.org/feature/rent-control') Rent control]
-                li #[a(href='https://civicsearch.org/feature/accessory-dwelling-units') Accessory dwelling units]
-                li.starred #[a(href='https://civicsearch.org/feature/short-term-rentals') Airbnbs and short-term rentals]
-                li.starred #[a(href='https://civicsearch.org/feature/immigration') Immigration]
-                li #[a(href='https://civicsearch.org/feature/cycling') Cycling] (#[a(href='https://pod.link/1800116578') podcast] and #[a(href='https://www.youtube.com/watch?v=JVUH_MLu7SM') YouTube] video)
-                li #[a(href='https://civicsearch.org/feature/pickleball') Pickleball]
-                li.starred #[a(href='https://civicsearch.org/feature/harm-reduction') Harm reduction, the opioid crisis, and safe injection sites]
-                li #[a(href='https://civicsearch.org/feature/bus-rapid-transit') Bus rapid transit]
-                li.starred #[a(href='https://civicsearch.org/feature/absenteeism') School absenteeism] (and #[a(href='https://civicsearch.org/nsba_assets/chronic_absenteeism.pdf') one-pager])
-            p I used Slack to communicate and GitHub to create web versions of the newsletter.
-            p I also scripted, recorded, and edited one-minute tutorial videos for YouTube that demonstrated key features of OneLook, a dictionary–thesaurus–word-finder combo.
-            ul
-                li.starred #[a(href='https://www.youtube.com/watch?v=oFz9OyLcy7k')] OneLook subject index
-                li.starred #[a(href='https://www.youtube.com/watch?v=a-HmvCyjrW0')] OneLook wildcard search patterns
-                li.starred #[a(href='https://www.youtube.com/watch?v=Eku7oJkxfTY')] OneLook result tabs
-        section
-            h2 Guideline documents
-            p From June 2021 to June 2023, I served as the internal chair of the Isla Vista Community Relations Committee (IVCRC), a student philanthropic and event-planning organization under the Associated Students of UC Santa Barbara. To make sure everyone knew what they were doing—and to create an institutional knowledge that could be expanded upon by future members—#[strong I wrote more than 25 guideline documents of 2 to 4 pages in length.] Below is a small selection.
-            ul
-                li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-honoraria-guidelines.pdf') Honoraria guidelines]
-                li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-publicity-guidelines.pdf') Publicity guidelines]
-                li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-communication-guidelines.pdf') Communication guidelines]
-                li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-meeting-guidelines.pdf') Meeting guidelines]
-                li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-Pardall-Center-guidelines.pdf') Pardall Center guidelines]
-                section
-            h2 Onboarding videos
-            p As the internal chair of IVCRC, #[strong I also created a series of 12 onboarding videos, each 10 to 20 minutes in length.] I recorded 5 of the videos (the rest were recorded by my fellow chairs), and I scripted and edited all of them.
-            ul
-                li.starred V08 Slack (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V08-Slack-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V08-Slack-script.pdf') script])
-                li.starred V04 Teamwork (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V04-Teamwork-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V04-Teamwork-script.pdf') script])
-                li V01 Introduction (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V01-Introduction-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V01-Introduction-script.pdf') script])
-                li V05 Spanish (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V05-Spanish-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V05-Spanish-script.pdf') script])
-                li V09 ClickUp (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V09-ClickUp-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V09-ClickUp-script.pdf') script])
-        section
-            h2 Bulk publicity emails
-            p As the internal chair of IVCRC, #[strong I also wrote some of the emails that we'd send out to the entire campus], whether to advertise a new event or to recruit new members.
-            ul
-                li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-1-carnival.pdf') 30-foot Ferris wheel on Sunday: Pardall Carnival returns]
-                li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-2-recruitment-1.pdf') Ferris wheel folks recruiting for next year (IVCRC)]
-                li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-3-recruitment-2.pdf') We need more]
-                li #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-4-recruitment-study-jam.pdf') Kozy Coffee, blueprints, bikes, and study jam at the Pardall Center]
-                li #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-5-recruitment-3.pdf') Applications open for the Isla Vista Community Relations Committee]
-                li #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-6-photo-exhibition.pdf') Photo Exhibition with IVCRC for a Polaroid!]
-        section
-            h2 Speeches
-            p Nothing major, and nothing much yet, but might as well put it here.
-            ul
-                li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Editing-graduation-speech-script.pdf') Graduation speech for the Professional Editing minor (no recording, sadly; watch the onboarding videos and just imagine my voice in your head)]
-        section
-            h2 Newspaper articles
-            p From October 2019 to April 2023, I contributed news articles and opinion pieces to the Daily Nexus, UC Santa Barbara's primary student newspaper. #[strong I interviewed students and community members and reported on local happenings], in the process working closely with the editors of each respective section.
-            p From my time here, I know how to ask effective questions and get to the point.
-            ul
-                li.starred #[a(href='https://dailynexus.com/2024-04-18/we-are-cannibalizing-ourselves-israel-palestine-is-not-a-competition/') Opinion: "We are Cannibalizing Ourselves: Israel-Palestine Is Not a Competition"]
-                li.starred #[a(href='https://dailynexus.com/2023-04-27/an-abecedarian-of-leather-spheres-and-polished-maple-watching-basketball-for-the-first-time/') Opinion: "Watching basketball for the first time: leather spheres and polished maple"]
-                li #[a(href='https://dailynexus.com/2022-04-09/2022-a-s-elections-to-begin-phase-out-of-parties-campaign-in-person/') News: "2022 A.S. Elections To Begin Phase-Out of Parties, Campaign In-Person"]
-                li.starred #[a(href='https://dailynexus.com/2022-04-01/pass-down-the-torch-the-four-year-journey-to-the-new-a-s-bike-shop/') News: "'Pass Down the Torch': The Four-Year Journey to the New A.S. Bike Shop"]
-                li.starred #[a(href='https://dailynexus.com/2022-03-06/a-s-bike-shop-breaks-ground-on-permanent-building-48-years-after-its-founding/') News: "A.S. Bike Shop Breaks Ground on Permanent Building, 47 Years After Its Founding"]
-                li #[a(href='https://dailynexus.com/2022-02-11/beer-bottles-cigarette-butts-and-whip-it-canisters-eab-cleans-50-pounds-of-trash-from-del-playa-drive/') News: "Beer Bottles, Cigarette Butts and Whip-It! Canisters: EAB Cleans 50 Pounds of Trash From Del Playa Drive"]
-                li #[a(href='https://dailynexus.com/2022-02-08/a-late-look-at-lunar-new-year-2022/') Opinion: "The Moon Is Made of Eggs and Flour"]
-                li #[a(href='https://dailynexus.com/2022-01-30/ucsb-relaunches-hazing-prevention-coalition/') News: "UCSB Relaunches Hazing Prevention Coalition"]
-                li.starred #[a(href='https://dailynexus.com/2022-01-13/introverts-are-not-immune-but-everyone-thinks-we-are/') Opinion: "Introverts Are Not Immune — But Everyone Thinks We Are"]
-                li #[a(href='https://dailynexus.com/2022-01-10/rcsgd-leads-walk-through-campus-in-observance-of-world-aids-day/') News: "RCSGD Leads Walk Through Campus in Observance of World AIDS Day"]
-                li.starred #[a(href='https://dailynexus.com/2022-01-02/ucsb-students-faculty-community-demand-action-at-climate-rally/') News: "UCSB Students, Faculty, Community Demand Action at Climate Rally"]
-                li.starred #[a(href='https://dailynexus.com/2022-01-02/ucsb-hosts-44th-annual-turkey-trot/') News: "UCSB Hosts 44th Annual Turkey Trot"]
-                li #[a(href='https://dailynexus.com/2021-12-03/dlg-late-night-cancelled-post-pandemic/') News: "DLG Late Night Cancelled Post-Pandemic"]
-                li.starred #[a(href='https://dailynexus.com/2021-11-23/ortega-is-dead-long-live-ortega-dining-commons-reborn-as-takeout-hub-catering-service-and-storage-closet/') News: "Ortega Is Dead, Long Live Ortega: Dining Commons Reborn as Takeout Hub, Catering Service and Storage Closet"]
-                li #[a(href='https://dailynexus.com/2021-11-22/ucsb-receives-fulbright-gilman-honors-for-diversity-and-inclusion-efforts-in-study-abroad/') News: "UCSB Receives Fulbright, Gilman Honors for Diversity and Inclusion Efforts in Study Abroad"]
-                li.starred #[a(href='https://dailynexus.com/2021-11-10/cu-boulder-historian-gives-virtual-lecture-on-community-engagement-and-accountability/') News: "CU Boulder Historian Gives Virtual Lecture on Community Engagement and Accountability"]
-                li #[a(href='https://dailynexus.com/2021-11-04/wingstop-swoops-into-isla-vista/') News: "Wingstop Swoops Into Isla Vista"]
-                li #[a(href='https://dailynexus.com/2021-10-28/ucsb-student-via-bleidner-hosts-on-campus-event-for-debut-novel/') News: "UCSB Student Via Bleidner Hosts On-Campus Event for Essay Collection"]
-                li.starred #[a(href='https://dailynexus.com/2020-11-10/learning-from-spring-and-summer-professors-pilot-revisions-to-remote-instruction-for-fall-quarter/') News: "Learning From Spring and Summer, Professors Pilot Revisions to Remote Instruction for Fall Quarter"]
-                li.starred #[a(href='https://dailynexus.com/2020-05-28/the-show-must-go-on-how-zoom-became-a-s-program-boards-newest-venue/') News: "The Show Must Go On: How Zoom Became A.S. Program Board's Newest Venue"]
-                li #[a(href='https://dailynexus.com/2020-05-03/ucsb-information-technology-will-pilot-student-internship-program-in-summer-2020/') News: "UCSB Information Technology Will Pilot Student Internship Program in Summer 2020"]
-                li.starred #[a(href='https://dailynexus.com/2020-04-07/campus-lagoon-yesterdays-memory-and-todays-home/') Science & Tech: "Campus Lagoon: Yesterday's Memory and Today's Home"]
-                li.starred #[a(href='https://dailynexus.com/2020-03-20/in-the-limbo-of-coronavirus-international-students-struggle-with-housing-and-travel/') News: "In the Limbo of Coronavirus, International Students Struggle With Housing and Travel"]
-                li #[a(href='https://dailynexus.com/2020-02-27/isla-vista-based-island-view-outfitters-celebrates-10th-anniversary-owner-reflects-on-companys-growth-and-future/') News: "Isla Vista Based Island View Outfitters Celebrates 10th Anniversary, Owner Reflects on Company's Growth and Future"]
-                li.starred #[a(href='https://dailynexus.com/2020-01-30/2020-21-school-year-will-have-two-week-winter-break/') News: "2020-21 School Year Will Have Two-Week Winter Break"]
-                li.starred #[a(href='https://dailynexus.com/2020-01-16/the-uc-should-strive-for-better-students-faculty-and-stakeholders-share-suggestions-for-the-next-uc-president-at-ucla-public-forum/') News: "'The UC should strive for better': Students, Faculty and Stakeholders Share Suggestions for the Next UC President at UCLA Public Forum"]
-                li #[a(href='https://dailynexus.com/2019-11-19/theres-no-relying-on-mommy-and-daddy-foster-and-formerly-incarcerated-students-share-their-stories-with-uc-regents/') News: "'There's no relying on mommy and daddy'": Foster and Formerly Incarcerated Students Share Their Stories With UC Regents]
-                li.starred #[a(href='https://dailynexus.com/2019-10-24/bells-towers-and-bell-towers-carillon-recital-celebrates-storke-towers-50th-anniversary/') News: "Bells, Towers and Bell Towers: Carillon Recital Celebrates Storke Tower's 50th Anniversary"]
-                li #[a(href='https://dailynexus.com/2019-10-18/megan-twohey-and-jodi-kantor-recount-breaking-harvey-weinstein-story-at-campbell-hall/') News: "Megan Twohey and Jodi Kantor Recount Breaking Harvey Weinstein Story at Campbell Hall"]
-        section
-            h2 Class writing
-            p Again, yes, embarrassing to use examples from class. That's why I've put it dead last in this section.
-            ul 
-                li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-neo-Aristotelian-criticism-Biden-essay.pdf') How to Sell a War: Joe Biden's Rhetoric on the One-Year Anniversary of Russia's Invasion of Ukraine]
-                li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-Toomer-aesthetic-scholarship.pdf') The Perversion of Striving: Modernism, Primitivism, and Class in Jean Toomer's "Theater"]
-                li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-Parks-aesthetic-scholarship.pdf') Seven Minutes to Infinity: Defining the Black Play]
-                li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-list-order-proposal.pdf') List Order Grant Proposal]
-                li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-generational-slang-proposal.pdf') Generational Slang Grant Proposal]
-        footer
-            p Built with Vercel, #[a(href='https://github.com/pugjs/pug') Pug], and #[a(href='https://github.com/yshyonli2/portfolio') GitHub].
-            p Find me on #[a(href='https://www.linkedin.com/in/yiu-on/') LinkedIn].
+block head
+    +head('Expository Writing')
+block header
+    h1 Expository Writing
+block main
+    section
+        h2 Newsletters and tutorial videos
+        p I’ve written newsletters for #[a(href='https://datamuse.com/') Datamuse], a search engine company that’s been around #[a(href='https://www.onelook.com/?c=trademark') since the early days of the web]. My job involved crawling through #[a(href='https://civicsearch.org/') CivicSearch], a database that aggregates transcripts of local government meetings from the United States and Canada, to discuss important but below-the-radar issues.
+        ul
+            li.starred #[a(href='https://civicsearch.org/feature/fluoride') Fluoride in drinking water]
+            li #[a(href='https://civicsearch.org/feature/voter-turnout') Voter turnout]
+            li.starred #[a(href='https://civicsearch.org/feature/ranked-choice-voting') Ranked-choice voting]
+            li.starred #[a(href='https://civicsearch.org/feature/participatory-budgeting') Participatory budgeting]
+            li #[a(href='https://civicsearch.org/feature/rent-control') Rent control]
+            li #[a(href='https://civicsearch.org/feature/accessory-dwelling-units') Accessory dwelling units]
+            li.starred #[a(href='https://civicsearch.org/feature/short-term-rentals') Airbnbs and short-term rentals]
+            li.starred #[a(href='https://civicsearch.org/feature/immigration') Immigration]
+            li #[a(href='https://civicsearch.org/feature/cycling') Cycling] (#[a(href='https://pod.link/1800116578') podcast] and #[a(href='https://www.youtube.com/watch?v=JVUH_MLu7SM') YouTube] video)
+            li #[a(href='https://civicsearch.org/feature/pickleball') Pickleball]
+            li.starred #[a(href='https://civicsearch.org/feature/harm-reduction') Harm reduction, the opioid crisis, and safe injection sites]
+            li #[a(href='https://civicsearch.org/feature/bus-rapid-transit') Bus rapid transit]
+            li.starred #[a(href='https://civicsearch.org/feature/absenteeism') School absenteeism] (and #[a(href='https://civicsearch.org/nsba_assets/chronic_absenteeism.pdf') one-pager])
+        p I used Slack to communicate and GitHub to create web versions of the newsletter.
+        p I also scripted, recorded, and edited one-minute tutorial videos for YouTube that demonstrated key features of OneLook, a dictionary–thesaurus–word-finder combo.
+        ul
+            li.starred #[a(href='https://www.youtube.com/watch?v=oFz9OyLcy7k')] OneLook subject index
+            li.starred #[a(href='https://www.youtube.com/watch?v=a-HmvCyjrW0')] OneLook wildcard search patterns
+            li.starred #[a(href='https://www.youtube.com/watch?v=Eku7oJkxfTY')] OneLook result tabs
+    section
+        h2 Guideline documents
+        p From June 2021 to June 2023, I served as the internal chair of the Isla Vista Community Relations Committee (IVCRC), a student philanthropic and event-planning organization under the Associated Students of UC Santa Barbara. To make sure everyone knew what they were doing—and to create an institutional knowledge that could be expanded upon by future members—#[strong I wrote more than 25 guideline documents of 2 to 4 pages in length.] Below is a small selection.
+        ul
+            li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-honoraria-guidelines.pdf') Honoraria guidelines]
+            li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-publicity-guidelines.pdf') Publicity guidelines]
+            li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-communication-guidelines.pdf') Communication guidelines]
+            li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-meeting-guidelines.pdf') Meeting guidelines]
+            li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-Pardall-Center-guidelines.pdf') Pardall Center guidelines]
+            section
+        h2 Onboarding videos
+        p As the internal chair of IVCRC, #[strong I also created a series of 12 onboarding videos, each 10 to 20 minutes in length.] I recorded 5 of the videos (the rest were recorded by my fellow chairs), and I scripted and edited all of them.
+        ul
+            li.starred V08 Slack (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V08-Slack-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V08-Slack-script.pdf') script])
+            li.starred V04 Teamwork (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V04-Teamwork-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V04-Teamwork-script.pdf') script])
+            li V01 Introduction (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V01-Introduction-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V01-Introduction-script.pdf') script])
+            li V05 Spanish (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V05-Spanish-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V05-Spanish-script.pdf') script])
+            li V09 ClickUp (#[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V09-ClickUp-video-final.mp4') video] and #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/IVCRC-V09-ClickUp-script.pdf') script])
+    section
+        h2 Bulk publicity emails
+        p As the internal chair of IVCRC, #[strong I also wrote some of the emails that we'd send out to the entire campus], whether to advertise a new event or to recruit new members.
+        ul
+            li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-1-carnival.pdf') 30-foot Ferris wheel on Sunday: Pardall Carnival returns]
+            li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-2-recruitment-1.pdf') Ferris wheel folks recruiting for next year (IVCRC)]
+            li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-3-recruitment-2.pdf') We need more]
+            li #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-4-recruitment-study-jam.pdf') Kozy Coffee, blueprints, bikes, and study jam at the Pardall Center]
+            li #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-5-recruitment-3.pdf') Applications open for the Isla Vista Community Relations Committee]
+            li #[a(href='https://platypiduses.com/wp-content/uploads/2024/03/IVCRC-bulk-email-6-photo-exhibition.pdf') Photo Exhibition with IVCRC for a Polaroid!]
+    section
+        h2 Speeches
+        p Nothing major, and nothing much yet, but might as well put it here.
+        ul
+            li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Editing-graduation-speech-script.pdf') Graduation speech for the Professional Editing minor (no recording, sadly; watch the onboarding videos and just imagine my voice in your head)]
+    section
+        h2 Newspaper articles
+        p From October 2019 to April 2023, I contributed news articles and opinion pieces to the Daily Nexus, UC Santa Barbara's primary student newspaper. #[strong I interviewed students and community members and reported on local happenings], in the process working closely with the editors of each respective section.
+        p From my time here, I know how to ask effective questions and get to the point.
+        ul
+            li.starred #[a(href='https://dailynexus.com/2024-04-18/we-are-cannibalizing-ourselves-israel-palestine-is-not-a-competition/') Opinion: "We are Cannibalizing Ourselves: Israel-Palestine Is Not a Competition"]
+            li.starred #[a(href='https://dailynexus.com/2023-04-27/an-abecedarian-of-leather-spheres-and-polished-maple-watching-basketball-for-the-first-time/') Opinion: "Watching basketball for the first time: leather spheres and polished maple"]
+            li #[a(href='https://dailynexus.com/2022-04-09/2022-a-s-elections-to-begin-phase-out-of-parties-campaign-in-person/') News: "2022 A.S. Elections To Begin Phase-Out of Parties, Campaign In-Person"]
+            li.starred #[a(href='https://dailynexus.com/2022-04-01/pass-down-the-torch-the-four-year-journey-to-the-new-a-s-bike-shop/') News: "'Pass Down the Torch': The Four-Year Journey to the New A.S. Bike Shop"]
+            li.starred #[a(href='https://dailynexus.com/2022-03-06/a-s-bike-shop-breaks-ground-on-permanent-building-48-years-after-its-founding/') News: "A.S. Bike Shop Breaks Ground on Permanent Building, 47 Years After Its Founding"]
+            li #[a(href='https://dailynexus.com/2022-02-11/beer-bottles-cigarette-butts-and-whip-it-canisters-eab-cleans-50-pounds-of-trash-from-del-playa-drive/') News: "Beer Bottles, Cigarette Butts and Whip-It! Canisters: EAB Cleans 50 Pounds of Trash From Del Playa Drive"]
+            li #[a(href='https://dailynexus.com/2022-02-08/a-late-look-at-lunar-new-year-2022/') Opinion: "The Moon Is Made of Eggs and Flour"]
+            li #[a(href='https://dailynexus.com/2022-01-30/ucsb-relaunches-hazing-prevention-coalition/') News: "UCSB Relaunches Hazing Prevention Coalition"]
+            li.starred #[a(href='https://dailynexus.com/2022-01-13/introverts-are-not-immune-but-everyone-thinks-we-are/') Opinion: "Introverts Are Not Immune — But Everyone Thinks We Are"]
+            li #[a(href='https://dailynexus.com/2022-01-10/rcsgd-leads-walk-through-campus-in-observance-of-world-aids-day/') News: "RCSGD Leads Walk Through Campus in Observance of World AIDS Day"]
+            li.starred #[a(href='https://dailynexus.com/2022-01-02/ucsb-students-faculty-community-demand-action-at-climate-rally/') News: "UCSB Students, Faculty, Community Demand Action at Climate Rally"]
+            li.starred #[a(href='https://dailynexus.com/2022-01-02/ucsb-hosts-44th-annual-turkey-trot/') News: "UCSB Hosts 44th Annual Turkey Trot"]
+            li #[a(href='https://dailynexus.com/2021-12-03/dlg-late-night-cancelled-post-pandemic/') News: "DLG Late Night Cancelled Post-Pandemic"]
+            li.starred #[a(href='https://dailynexus.com/2021-11-23/ortega-is-dead-long-live-ortega-dining-commons-reborn-as-takeout-hub-catering-service-and-storage-closet/') News: "Ortega Is Dead, Long Live Ortega: Dining Commons Reborn as Takeout Hub, Catering Service and Storage Closet"]
+            li #[a(href='https://dailynexus.com/2021-11-22/ucsb-receives-fulbright-gilman-honors-for-diversity-and-inclusion-efforts-in-study-abroad/') News: "UCSB Receives Fulbright, Gilman Honors for Diversity and Inclusion Efforts in Study Abroad"]
+            li.starred #[a(href='https://dailynexus.com/2021-11-10/cu-boulder-historian-gives-virtual-lecture-on-community-engagement-and-accountability/') News: "CU Boulder Historian Gives Virtual Lecture on Community Engagement and Accountability"]
+            li #[a(href='https://dailynexus.com/2021-11-04/wingstop-swoops-into-isla-vista/') News: "Wingstop Swoops Into Isla Vista"]
+            li #[a(href='https://dailynexus.com/2021-10-28/ucsb-student-via-bleidner-hosts-on-campus-event-for-debut-novel/') News: "UCSB Student Via Bleidner Hosts On-Campus Event for Essay Collection"]
+            li.starred #[a(href='https://dailynexus.com/2020-11-10/learning-from-spring-and-summer-professors-pilot-revisions-to-remote-instruction-for-fall-quarter/') News: "Learning From Spring and Summer, Professors Pilot Revisions to Remote Instruction for Fall Quarter"]
+            li.starred #[a(href='https://dailynexus.com/2020-05-28/the-show-must-go-on-how-zoom-became-a-s-program-boards-newest-venue/') News: "The Show Must Go On: How Zoom Became A.S. Program Board's Newest Venue"]
+            li #[a(href='https://dailynexus.com/2020-05-03/ucsb-information-technology-will-pilot-student-internship-program-in-summer-2020/') News: "UCSB Information Technology Will Pilot Student Internship Program in Summer 2020"]
+            li.starred #[a(href='https://dailynexus.com/2020-04-07/campus-lagoon-yesterdays-memory-and-todays-home/') Science & Tech: "Campus Lagoon: Yesterday's Memory and Today's Home"]
+            li.starred #[a(href='https://dailynexus.com/2020-03-20/in-the-limbo-of-coronavirus-international-students-struggle-with-housing-and-travel/') News: "In the Limbo of Coronavirus, International Students Struggle With Housing and Travel"]
+            li #[a(href='https://dailynexus.com/2020-02-27/isla-vista-based-island-view-outfitters-celebrates-10th-anniversary-owner-reflects-on-companys-growth-and-future/') News: "Isla Vista Based Island View Outfitters Celebrates 10th Anniversary, Owner Reflects on Company's Growth and Future"]
+            li.starred #[a(href='https://dailynexus.com/2020-01-30/2020-21-school-year-will-have-two-week-winter-break/') News: "2020-21 School Year Will Have Two-Week Winter Break"]
+            li.starred #[a(href='https://dailynexus.com/2020-01-16/the-uc-should-strive-for-better-students-faculty-and-stakeholders-share-suggestions-for-the-next-uc-president-at-ucla-public-forum/') News: "'The UC should strive for better': Students, Faculty and Stakeholders Share Suggestions for the Next UC President at UCLA Public Forum"]
+            li #[a(href='https://dailynexus.com/2019-11-19/theres-no-relying-on-mommy-and-daddy-foster-and-formerly-incarcerated-students-share-their-stories-with-uc-regents/') News: "'There's no relying on mommy and daddy'": Foster and Formerly Incarcerated Students Share Their Stories With UC Regents]
+            li.starred #[a(href='https://dailynexus.com/2019-10-24/bells-towers-and-bell-towers-carillon-recital-celebrates-storke-towers-50th-anniversary/') News: "Bells, Towers and Bell Towers: Carillon Recital Celebrates Storke Tower's 50th Anniversary"]
+            li #[a(href='https://dailynexus.com/2019-10-18/megan-twohey-and-jodi-kantor-recount-breaking-harvey-weinstein-story-at-campbell-hall/') News: "Megan Twohey and Jodi Kantor Recount Breaking Harvey Weinstein Story at Campbell Hall"]
+    section
+        h2 Class writing
+        p Again, yes, embarrassing to use examples from class. That's why I've put it dead last in this section.
+        ul
+            li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-neo-Aristotelian-criticism-Biden-essay.pdf') How to Sell a War: Joe Biden's Rhetoric on the One-Year Anniversary of Russia's Invasion of Ukraine]
+            li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-Toomer-aesthetic-scholarship.pdf') The Perversion of Striving: Modernism, Primitivism, and Class in Jean Toomer's "Theater"]
+            li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-Parks-aesthetic-scholarship.pdf') Seven Minutes to Infinity: Defining the Black Play]
+            li.starred #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-list-order-proposal.pdf') List Order Grant Proposal]
+            li #[a(href='https://platypiduses.com/wp-content/uploads/2023/06/Class-generational-slang-proposal.pdf') Generational Slang Grant Proposal]
