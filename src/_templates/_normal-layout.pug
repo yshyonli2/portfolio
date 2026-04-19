@@ -1,0 +1,13 @@
+include ../_includes/_head.pug
+
+doctype html
+html
+    block head
+        +head()
+    body
+        header
+            block header
+        main
+            block main
+        block footer
+            include ../_includes/_footer.pug
