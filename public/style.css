@@ -70,12 +70,16 @@ body {
 .navbar__home {
   flex-grow: 2;
 }
-.navbar__sub {
+.navbar__top > .navbar__sub {
+  display: none;
   flex-direction: column;
   margin-block-start: 0.5rem;
 }
-.navbar__sub li {
+.navbar__top > .navbar__sub li {
   margin-inline: 0;
+}
+.navbar__top:focus-within > .navbar__sub {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

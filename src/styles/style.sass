@@ -19,9 +19,13 @@ body
     &__home
         flex-grow: 2
 
-    &__sub
+    &__top > &__sub
+        display: none
         flex-direction: column
         margin-block-start: 0.5rem
 
         li
             margin-inline: 0
+
+    &__top:focus-within > &__sub
+        display: block
