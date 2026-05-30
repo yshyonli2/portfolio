@@ -249,13 +249,19 @@ h1, h2, h3, h4, h5, h6 {
 body {
   margin-block: 3rem;
   margin-inline: 3rem;
-  font-family: "Times New Roman";
   color: #212121;
+}
+
+h1 {
+  font-family: Geom;
 }
 
 p {
   margin-block-end: 0.5rem;
   font-size: 16px;
+  font-family: Alegreya;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .navbar ul {
