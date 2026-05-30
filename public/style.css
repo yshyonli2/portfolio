@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Alegreya normal */
 /* cyrillic-ext */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* cyrillic */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* greek-ext */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* greek */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* vietnamese */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* latin-ext */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* latin */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Alegreya italic */
 /* cyrillic-ext */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* cyrillic */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* greek-ext */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* greek */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* vietnamese */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* latin-ext */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* latin */
 @font-face {
-  font-family: "Alegreya";
+  font-family: Alegreya;
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Geom normal */
 /* greek */
 @font-face {
-  font-family: "Geom";
+  font-family: Geom;
   font-style: normal;
   font-weight: 300 900;
   font-display: swap;
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* latin-ext */
 @font-face {
-  font-family: "Geom";
+  font-family: Geom;
   font-style: normal;
   font-weight: 300 900;
   font-display: swap;
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* latin */
 @font-face {
-  font-family: "Geom";
+  font-family: Geom;
   font-style: normal;
   font-weight: 300 900;
   font-display: swap;
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Geom italic */
 /* greek */
 @font-face {
-  font-family: "Geom";
+  font-family: Geom;
   font-style: italic;
   font-weight: 300 900;
   font-display: swap;
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* latin-ext */
 @font-face {
-  font-family: "Geom";
+  font-family: Geom;
   font-style: italic;
   font-weight: 300 900;
   font-display: swap;
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* latin */
 @font-face {
-  font-family: "Geom";
+  font-family: Geom;
   font-style: italic;
   font-weight: 300 900;
   font-display: swap;
