@@ -249,6 +249,8 @@ h1, h2, h3, h4, h5, h6 {
 body {
   margin-block: 3rem;
   margin-inline: 3rem;
+  font-family: Alegreya, "Times New Roman", Times, serif;
+  font-weight: normal;
   color: #212121;
 }
 
