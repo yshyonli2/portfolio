@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-normal-cyrillic") format("woff2");
+  src: url("fonts/alegreya-normal-cyrillic.woff2") format("woff2");
   unicode-range: "cyrillic";
 }
 @font-face {
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-normal-cyrillic-ext") format("woff2");
+  src: url("fonts/alegreya-normal-cyrillic-ext.woff2") format("woff2");
   unicode-range: "cyrillic-ext";
 }
 @font-face {
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-normal-greek") format("woff2");
+  src: url("fonts/alegreya-normal-greek.woff2") format("woff2");
   unicode-range: "greek";
 }
 @font-face {
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-normal-greek-ext") format("woff2");
+  src: url("fonts/alegreya-normal-greek-ext.woff2") format("woff2");
   unicode-range: "greek-ext";
 }
 @font-face {
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-normal-latin") format("woff2");
+  src: url("fonts/alegreya-normal-latin.woff2") format("woff2");
   unicode-range: "latin";
 }
 @font-face {
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-normal-latin-ext") format("woff2");
+  src: url("fonts/alegreya-normal-latin-ext.woff2") format("woff2");
   unicode-range: "latin-ext";
 }
 @font-face {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-normal-vietnamese") format("woff2");
+  src: url("fonts/alegreya-normal-vietnamese.woff2") format("woff2");
   unicode-range: "vietnamese";
 }
 @font-face {
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-italic-cyrillic") format("woff2");
+  src: url("fonts/alegreya-italic-cyrillic.woff2") format("woff2");
   unicode-range: "cyrillic";
 }
 @font-face {
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-italic-cyrillic-ext") format("woff2");
+  src: url("fonts/alegreya-italic-cyrillic-ext.woff2") format("woff2");
   unicode-range: "cyrillic-ext";
 }
 @font-face {
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-italic-greek") format("woff2");
+  src: url("fonts/alegreya-italic-greek.woff2") format("woff2");
   unicode-range: "greek";
 }
 @font-face {
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-italic-greek-ext") format("woff2");
+  src: url("fonts/alegreya-italic-greek-ext.woff2") format("woff2");
   unicode-range: "greek-ext";
 }
 @font-face {
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-italic-latin") format("woff2");
+  src: url("fonts/alegreya-italic-latin.woff2") format("woff2");
   unicode-range: "latin";
 }
 @font-face {
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-italic-latin-ext") format("woff2");
+  src: url("fonts/alegreya-italic-latin-ext.woff2") format("woff2");
   unicode-range: "latin-ext";
 }
 @font-face {
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 400 900;
   font-display: swap;
-  src: url("fonts/alegreya-italic-vietnamese") format("woff2");
+  src: url("fonts/alegreya-italic-vietnamese.woff2") format("woff2");
   unicode-range: "vietnamese";
 }
 @font-face {
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 300 900;
   font-display: swap;
-  src: url("fonts/geom-normal-greek") format("woff2");
+  src: url("fonts/geom-normal-greek.woff2") format("woff2");
   unicode-range: "greek";
 }
 @font-face {
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 300 900;
   font-display: swap;
-  src: url("fonts/geom-normal-latin") format("woff2");
+  src: url("fonts/geom-normal-latin.woff2") format("woff2");
   unicode-range: "latin";
 }
 @font-face {
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 300 900;
   font-display: swap;
-  src: url("fonts/geom-normal-latin-ext") format("woff2");
+  src: url("fonts/geom-normal-latin-ext.woff2") format("woff2");
   unicode-range: "latin-ext";
 }
 @font-face {
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 300 900;
   font-display: swap;
-  src: url("fonts/geom-italic-greek") format("woff2");
+  src: url("fonts/geom-italic-greek.woff2") format("woff2");
   unicode-range: "greek";
 }
 @font-face {
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 300 900;
   font-display: swap;
-  src: url("fonts/geom-italic-latin") format("woff2");
+  src: url("fonts/geom-italic-latin.woff2") format("woff2");
   unicode-range: "latin";
 }
 @font-face {
@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 300 900;
   font-display: swap;
-  src: url("fonts/geom-italic-latin-ext") format("woff2");
+  src: url("fonts/geom-italic-latin-ext.woff2") format("woff2");
   unicode-range: "latin-ext";
 }
 @font-face {
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("fonts/skmoralist-normal-cyrillic") format("woff2");
+  src: url("fonts/skmoralist-normal-cyrillic.woff2") format("woff2");
   unicode-range: "cyrillic";
 }
 @font-face {
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("fonts/skmoralist-normal-latin") format("woff2");
+  src: url("fonts/skmoralist-normal-latin.woff2") format("woff2");
   unicode-range: "latin";
 }
 body {

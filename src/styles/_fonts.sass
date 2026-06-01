@@ -37,7 +37,7 @@ $font-unicode-ranges: (
 
     @each $font-style in $font-styles
         @each $unicode-range in $unicode-ranges
-            $src: url("fonts/#{map.get($font-meta, "key")}-#{$font-style}-#{$unicode-range}")
+            $src: url("fonts/#{map.get($font-meta, "key")}-#{$font-style}-#{$unicode-range}.woff2")
             @font-face
                 font-family: $font-name
                 font-style: $font-style
