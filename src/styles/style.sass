@@ -2,8 +2,8 @@
 @use 'fonts'
 
 /* Variable naming convention: https://jwdallas.com/posts/namingcssvariables/
-$color-inactive: hsl(0, 0, 80)
-$color-text: hsl(0, 0, 80)
+$color-inactive: hsl(0, 0%, 80%)
+$color-text: hsl(0, 0%, 13%)
 $fontFamily-aside: 'SK Moralist', 'Times New Roman', Times, serif
 $fontFamily-body: Alegreya, 'Times New Roman', Times, serif
 $fontFamily-heading: Geom, Arial, sans-serif
@@ -33,6 +33,12 @@ small
     font-size: 1.1rem
     font-family: $fontFamily-heading
 
+    a
+        color: $color-inactive
+        text-decoration: none
+        &:hover
+            text-decoration: underline
+
     ul
         display: flex
         padding: 0
@@ -45,6 +51,9 @@ small
     &__home
         flex-grow: 2
 
+    &__top, &__sub
+        text-align: right
+
     &__top > &__sub
         display: none
         flex-direction: column
@@ -55,3 +64,7 @@ small
 
     &__top:focus-within > &__sub
         display: block
+
+    &:hover
+        a
+            color: $color-text

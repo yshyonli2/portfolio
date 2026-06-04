@@ -235,7 +235,7 @@ body {
   margin-inline: 3rem;
   font-family: Alegreya, "Times New Roman", Times, serif;
   font-weight: normal;
-  color: hsl(0, 0%, 80%);
+  color: hsl(0, 0%, 13%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -259,6 +259,13 @@ small {
   font-size: 1.1rem;
   font-family: Geom, Arial, sans-serif;
 }
+.navbar a {
+  color: hsl(0, 0%, 80%);
+  text-decoration: none;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
 .navbar ul {
   display: flex;
   padding: 0;
@@ -271,6 +278,9 @@ small {
 .navbar__home {
   flex-grow: 2;
 }
+.navbar__top, .navbar__sub {
+  text-align: right;
+}
 .navbar__top > .navbar__sub {
   display: none;
   flex-direction: column;
@@ -281,6 +291,9 @@ small {
 }
 .navbar__top:focus-within > .navbar__sub {
   display: block;
+}
+.navbar:hover a {
+  color: hsl(0, 0%, 13%);
 }
 
 /*# sourceMappingURL=style.css.map */
