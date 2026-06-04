@@ -235,7 +235,7 @@ body {
   margin-inline: 3rem;
   font-family: Alegreya, "Times New Roman", Times, serif;
   font-weight: normal;
-  color: #212121;
+  color: hsl(0, 0%, 80%);
 }
 
 h1, h2, h3, h4, h5, h6 {
