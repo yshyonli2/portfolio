@@ -1,27 +1,31 @@
 @use "reset"
 @use "fonts"
 
-$font-color: #212121
+/* Variable naming convention: https://jwdallas.com/posts/namingcssvariables/
+$color-text: #212121
+$fontFamily-aside: "SK Moralist", "Times New Roman", Times, serif
+$fontFamily-body: Alegreya, "Times New Roman", Times, serif
+$fontFamily-heading: Geom, Arial, sans-serif
 
 body
     margin-block: 3rem
     margin-inline: 3rem
-    font-family: Alegreya, 'Times New Roman', Times, serif
+    font-family: $fontFamily-body
     font-weight: normal
-    color: $font-color
+    color: $color-text
 
 h1, h2, h3, h4, h5, h6
-    font-family: Geom, Arial, sans-serif
+    font-family: $fontFamily-heading
 
 p
     margin-block-end: 0.5rem
     font-size: 16px
-    font-family: Alegreya, 'Times New Roman', Times, serif
+    font-family: $fontFamily-body
     font-weight: normal
 
 small
     font-size: 12px
-    font-family: 'SK Moralist', 'Times New Roman', Times, serif
+    font-family: $fontFamily-aside
     font-weight: normal
 
 .navbar
