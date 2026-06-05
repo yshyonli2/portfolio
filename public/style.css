@@ -278,9 +278,6 @@ small {
 .navbar__home {
   flex-grow: 2;
 }
-.navbar__top, .navbar__sub {
-  text-align: right;
-}
 .navbar__top > .navbar__sub {
   display: none;
   flex-direction: column;
@@ -290,6 +287,7 @@ small {
   margin-inline: 0;
 }
 .navbar__top:focus-within > .navbar__sub {
+  position: absolute;
   display: block;
 }
 .navbar:hover a {

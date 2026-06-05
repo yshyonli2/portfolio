@@ -51,9 +51,6 @@ small
     &__home
         flex-grow: 2
 
-    &__top, &__sub
-        text-align: right
-
     &__top > &__sub
         display: none
         flex-direction: column
@@ -63,6 +60,7 @@ small
             margin-inline: 0
 
     &__top:focus-within > &__sub
+        position: absolute
         display: block
 
     &:hover
