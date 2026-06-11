@@ -231,8 +231,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Variable naming convention: https://jwdallas.com/posts/namingcssvariables/ */
 body {
+  border: 10px solid black;
   margin-block: 3rem;
-  margin-inline: 3rem;
+  margin-inline: auto;
+  width: clamp(200px, 80%, 700px);
   font-family: Alegreya, "Times New Roman", Times, serif;
   font-weight: normal;
   color: hsl(0, 0%, 13%);
