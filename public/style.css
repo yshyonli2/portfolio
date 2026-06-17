@@ -239,7 +239,7 @@ body {
   font-weight: normal;
   color: hsl(0, 0%, 13%);
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   body {
     width: 75%;
   }
