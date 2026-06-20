@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/* Variable naming convention: https://jwdallas.com/posts/namingcssvariables/ */
 @font-face {
   font-family: "Alegreya";
   font-style: normal;
@@ -229,7 +230,6 @@ h1, h2, h3, h4, h5, h6 {
   src: url("fonts/skmoralist-normal-latin.woff2") format("woff2");
   unicode-range: "latin";
 }
-/* Variable naming convention: https://jwdallas.com/posts/namingcssvariables/ */
 body {
   margin-block: 3rem;
   margin-inline: auto;
