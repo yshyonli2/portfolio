@@ -11,7 +11,7 @@ body
     font-weight: normal
     color: $color-text
 
-    @media (max-width: 740px)
+    @media (max-width: 50rem)
         margin: 20px
         width: unset
 
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6
     font-family: $fontFamily-heading
 
 p
-    margin-block-end: 0.5rem
+    margin-block-end: 1rem
     font-size: 1rem
     font-family: $fontFamily-body
     font-weight: normal
@@ -27,6 +27,14 @@ p
 small
     font-size: 0.75rem
     font-family: $fontFamily-aside
+    font-weight: normal
+
+ul
+    margin-block-end: 1rem
+
+li
+    font-size: 1rem
+    font-family: $fontFamily-body
     font-weight: normal
 
 .navbar
@@ -47,6 +55,7 @@ small
     li
         margin-block-end: 0.5rem
         margin-inline: 0.5rem
+        font-family: $fontFamily-heading
 
     &__home
         flex-grow: 2
