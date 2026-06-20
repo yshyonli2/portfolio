@@ -1,7 +1,9 @@
-mixin head(title)
+mixin head(title, description='writer guy')
     head
         meta(charset='UTF-8')
         //- change theme color later
+        meta(name='author' content='Yiu-On Li')
+        meta(name='description' content=description)
         meta(name='theme-color' content='blanchedalmond' media='(prefers-color-scheme: light)')
         meta(name='viewport' content='width=device-width, initial-scale=1.0')
         title= (title ? title + ' · ' : '') + 'Yiu-On'
